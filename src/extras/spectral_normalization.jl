@@ -1,3 +1,5 @@
+using Zygote: Zeros
+
 # Power iteration algorithm for computing the spectral norm
 function power_iteration!(W, u, n_iterations)
     v = nothing
